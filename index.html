@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Web Player:Music For Everyone</title>
+    <link
+      rel="icon"
+      href="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-logo-transparent-spotify-logo-images-25.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--All sections under this section-->
+    <section class="all-sections">
+      <!--This is for sidebar section-->
+      <section class="sidebar-section">
+        <!--This is for spotify logo and home and search area-->
+        <div class="sidebar-I">
+          <a href="#"
+            ><img
+              class="logo"
+              src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Full_Logo_RGB_White.png"
+              alt=""
+          /></a>
+          <ul>
+            <li class="flex">
+              <i class="fa-solid fa-house icons"></i>
+              <h3>Home</h3>
+            </li>
+            <li class="flex">
+              <i
+                class="fa-solid fa-magnifying-glass icons2"
+                style="color: #9fa0a3"
+              ></i>
+              <h3 class="Search">Search</h3>
+            </li>
+          </ul>
+        </div>
+        <!--This is for sidebar centre area -->
+        <div class="sidebar-II">
+          <div class="flex">
+            <div class="flex library-header">
+              <svg
+                data-encore-id="icon"
+                class="icon"
+                role="img"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                class="Svg-sc-ytk21e-0 bneLcE"
+              >
+                <path
+                  d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z"
+                ></path>
+              </svg>
+              <h3>Your Library</h3>
+            </div>
+            <i class="fa-solid fa-plus plus-icon"></i>
+          </div>
+          <!--For sidebar centre scroll area-->
+          <div class="scroll-area">
+            <div class="create-playlist">
+              <h4>Create your first Playlist</h4>
+              <p>it's is easy , we we'll help you</p>
+              <button>Create playlist</button>
+            </div>
+            <div class="find-podcast">
+              <h4>Let's find some podcasts to follow</h4>
+              <p>we'll keep you updated on new episodes</p>
+              <button>Browse podcasts</button>
+            </div>
+          </div>
+          <!--Side bar bottom area-->
+          <div class="sidebar-bottom">
+            <a href="">Legel</a>
+            <a href="">Safety & Privacy center</a>
+            <a href="">Privacy Policy</a>
+            <a href="">cookies</a>
+            <a href="">About Ads</a>
+            <a href="">Accessibilty</a>
+            <a href="">Cookies</a>
+            <br />
+            <button><i class="fa-solid fa-globe icon"></i> English</button>
+          </div>
+        </div>
+      </section>
+      <!--For main section under all section-->
+      <section class="main-section">
+        <!--Header part-->
+        <header>
+          <div>
+            <svg
+              class="arrow-icons"
+              role="img"
+              aria-hidden="true"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.03.47a.75.75 0 0 1 0 1.06L4.56 8l6.47 6.47a.75.75 0 1 1-1.06 1.06L2.44 8 9.97.47a.75.75 0 0 1 1.06 0z"
+              ></path>
+            </svg>
+            <svg
+              class="arrow-icons"
+              role="img"
+              aria-hidden="true"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4.97.47a.75.75 0 0 0 0 1.06L11.44 8l-6.47 6.47a.75.75 0 1 0 1.06 1.06L13.56 8 6.03.47a.75.75 0 0 0-1.06 0z"
+              ></path>
+            </svg>
+          </div>
+          <div>
+            <button class="signup-btn">Signup</button>
+            <button class="login-btn">Log in</button>
+          </div>
+        </header>
+        <!--Main section after header & all remaining parts under popular-->
+        <div class="populars">
+          <!--For popular artists section include heading and artist details-->
+          <div class="popular-artists">
+            <!--heading-->
+            <div class="popular-heading-div">
+              <h2>Popular artists</h2>
+              <h5>Show all</h5>
+            </div>
+            <!--all artists details-->
+            <div class="artists">
+              <!--single artist details-->
+              <div class="artist">
+                <img
+                  class="artist-img"
+                  src="	https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Pritam</h3>
+                <p>Artist</p>
+              </div>
+              <div class="artist">
+                <img
+                  class="artist-img"
+                  src="	https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Arjith Singh</h3>
+                <p>Artist</p>
+              </div>
+              <div class="artist">
+                <img
+                  class="artist-img"
+                  src="	https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>A.R.Rahman</h3>
+                <p>Artist</p>
+              </div>
+              <div class="artist">
+                <img
+                  class="artist-img"
+                  src="	https://i.scdn.co/image/ab67616100005174a038d7d87f8577bbb9686bd3"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Sachin-Jigar</h3>
+                <p>Artist</p>
+              </div>
+              <div class="artist">
+                <img
+                  class="artist-img"
+                  src="	https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Anirudh Ravichander</h3>
+                <p>Artist</p>
+              </div>
+              <div class="artist">
+                <img
+                  class="artist-img"
+                  src="https://i.scdn.co/image/ab67616100005174fb13d10be20fdcb5a670f551"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Vishal Mishra</h3>
+                <p>Artist</p>
+              </div>
+              <div class="artist">
+                <img
+                  class="artist-img"
+                  src="	https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Athif Aslam</h3>
+                <p>Artist</p>
+              </div>
+            </div>
+          </div>
+          <!--all album details-->
+          <div class="popular-others">
+            <!--single album details-->
+            <div class="popular-heading-div">
+              <h2>Popular albums</h2>
+              <h5>Show all</h5>
+            </div>
+            <div class="popular">
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Ashiqui 2</h3>
+                <p>Mithoon,Ankith Tiwari,Jeet Gannguli</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67616d00001e021e63de6489803c2b39e7f8e5"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>love hotel</h3>
+                <p>leftovermax</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Ek The Raja</h3>
+                <p>Badshah</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Making Memories</h3>
+                <p>Karan Aujla,ikky</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>ANIMAL</h3>
+                <p>Mandan Bhardwaj,Vishal Mishra,Jaani</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Moose Tape</h3>
+                <p>Sidhu Moose Wala</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="https://i.scdn.co/image/ab67616d00001e02d5f4378b1ffc9119fdc7306d"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Sajni(From"Laapataa Ladies")</h3>
+                <p>Ram Sampath,Arjith Singh,Prashant Pandey</p>
+              </div>
+            </div>
+          </div>
+          <!--all radio details-->
+          <div class="popular-others">
+            <!--single radio details-->
+            <div class="popular-heading-div">
+              <h2>Popular radio</h2>
+              <h5>Show all</h5>
+            </div>
+            <div class="popular">
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4YRxDV8wJFPHPTeXepOstw/en-GB"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>With Neha kakkar,Pritam,KK and more</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://seeded-session-images.scdn.co/v2/img/540/r/artist/70B80Lwx2sxti0M1Ng9e8K/en-GB"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>With Kumar sanu,Alka Yagnik,Anuradha Paudwal...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://seeded-session-images.scdn.co/v2/img/540/r/artist/2FKWNmZWDBZR4dE5KX4plR/en-GB"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>With Garry Sandhu, Ranjit Bawa,....</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://seeded-session-images.scdn.co/v2/img/540/r/artist/1mYsTxnqsietFxj1OgoGbG/en-GB"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>With Shankar Mahadevan,Anirudh...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://seeded-session-images.scdn.co/v2/img/540/r/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>With Mohit Chauhan,Ankit Tiwari , Javed...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://seeded-session-images.scdn.co/v2/img/540/r/artist/3gBKY0y3dFFVRqicLnVZYz/en-GB"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>With Udit Narayan,Kumar Sanu.Anuradha Paudwal...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/0oOet2f43PA68X5RxKobEy/en-GB"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>With Sonu Nigam,Sunidi Chauhan,Shaan and more</p>
+              </div>
+            </div>
+          </div>
+          <!--all featured charts-->
+          <div class="popular-others">
+            <!--single featured charts-->
+            <div class="popular-heading-div">
+              <h2>Featured Charts</h2>
+            </div>
+            <div class="popular">
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>Your weekly update of the most played...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>Your weekly update of the most played...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>Your weekly update of the most played...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>Your weekly update of the most played...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>Your weekly update of the most played...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>Your weekly update of the most played...</p>
+              </div>
+            </div>
+          </div>
+          <!--all playlists-->
+          <div class="popular-others">
+            <!--single playlists-->
+            <div class="popular-heading-div">
+              <h2>Spotify Playlists</h2>
+              <h5>Show all</h5>
+            </div>
+            <div class="popular">
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="https://i.scdn.co/image/ab67706f0000000255be59b7be2929112e7ac927"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>chill beats,lofi vibes,new traks</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67706f00000002997259ab71bbecfa630edc82"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>The hottest50.Cover:Post Malone</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67706f000000028198a83727d00f09319dff2c"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>Uptempo instrumental hip...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67706f000000029385ce8e365c6b8ba3f70d4b"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>Just learn back and enjoy relaxed</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67706f00000002d6710ea346fec48e89d77dba"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>The biggest songs of the 1980s.cove...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67706f0000000228a53ce1737136d0c25bcb1f"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>instrumental house for when you nee...</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="https://i.scdn.co/image/ab67706f00000002472120b92edea982b5feb264"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <p>Soft instrumental Jazz for all your...</p>
+              </div>
+            </div>
+          </div>
+          <!--all trending episodes-->
+          <div class="popular-others">
+            <!--single trending episodes-->
+            <div class="popular-heading-div">
+              <h2>Trending Episodes</h2>
+              <h5>Show all</h5>
+            </div>
+            <div class="popular">
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67656300005f1f9f5d8dab58a909ef23fee583"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Welcome back,RJ Balaji-...</h3>
+                <p>Jun2021-15min</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="https://i.scdn.co/image/ab67656300005f1f099a357ed0a2a39424f2903d"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>#73:Hotel of Horrors(Serial..)</h3>
+                <p>Jun2021-93min</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67656300005f1f9d2abc777125c182cf99b60f"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Anubis : God of Death - part 2</h3>
+                <p>Jun2021-16min</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67656300005f1f977f6de2920c47bb781ed6e5"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Anubis : God of Death - part 1</h3>
+                <p>Jun2021-13min</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67656300005f1f36dbb0b2d65004488fcc322f"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Mahabharata Episode 1:...</h3>
+                <p>Apr2014-24min</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="	https://i.scdn.co/image/ab67656300005f1f6807eaee16197dac1dd840e8"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Ep8-Ye Ne Thi HanariQismat</h3>
+                <p>Aug2020-3min</p>
+              </div>
+              <div class="each-populars-div">
+                <img
+                  class="each-populars-div-img"
+                  src="https://i.scdn.co/image/5752f200206ea03cb88b18201e8ce15febb2598b"
+                  alt=""
+                />
+                <button class="play-button">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <h3>Asatha Povathu Yaru|Madurai...</h3>
+                <p>May2021-11min</p>
+              </div>
+            </div>
+          </div>
+          <!--all footer section-->
+          <footer>
+            <div>
+              <h4>Company</h4>
+              <ul>
+                <a href=""><li>About</li></a>
+                <a href=""><li>Jobs</li></a>
+                <a href=""><li>For the Record</li></a>
+              </ul>
+            </div>
+            <div>
+              <h4>Communities</h4>
+              <ul>
+                <a href=""><li>For Artists</li></a>
+                <a href=""><li>Developers</li></a>
+                <a href=""><li>Advertising</li></a>
+                <a href=""><li>Investors</li></a>
+                <a href=""><li>Vendors</li></a>
+              </ul>
+            </div>
+            <div>
+              <h4>Useful Links</h4>
+              <ul>
+                <a href=""><li>Support</li></a>
+                <a href=""><li>Free Mobile App</li></a>
+              </ul>
+            </div>
+            <div>
+              <h4>Apotify Plans</h4>
+              <ul>
+                <a href=""><li>Premium Individual</li></a>
+                <a href=""><li>Premium Duo</li></a>
+                <a href=""><li>Premium Family</li></a>
+                <a href=""><li>Premium Student</li></a>
+                <a href=""><li>Spotify Free</li></a>
+              </ul>
+            </div>
+            <div>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+          </footer>
+          <hr class="hr" />
+          <div class="copy-rate">
+            <p>2024 Spotify AB</p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
